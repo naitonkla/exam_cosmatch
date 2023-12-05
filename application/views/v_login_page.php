@@ -9,8 +9,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Pokemon Friend Code</title>
-	<link rel = "icon" href = "<?php echo base_url("pokeball-png-45330.png");?>" type = "image/x-icon">
+	<title>Employee Login</title>
 
 	<!-- Custom fonts for this template-->
 	<link href="<?php echo base_url("/assets/vendor/fontawesome-free/css/all.min.css");?>" rel="stylesheet" type="text/css">
@@ -74,7 +73,7 @@
 										<a class="small" href="forgot-password.html">Forgot Password?</a>
 									</div>-->
 									<div class="text-center">
-										<a class="small" href="Register">ลงทะเบียน</a>
+										<a class="small" href="add_employee">ลงทะเบียน</a>
 									</div>
 									<?php if($this->session->flashdata('msg')){
 										echo "<p align='center' style='color:red'>";
